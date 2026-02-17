@@ -10,9 +10,6 @@ We use **Bayesian inference** to estimate the posterior distribution of paramete
 
 * **Inference Engine:** We employ the **NUTS (No-U-Turn Sampler)** algorithm.
 * **Framework:** Implementation is handled via **PyMC**, a state-of-the-art probabilistic programming framework.
-* **MIC Calculation:** For visualization and analysis (e.g., Figure 3), the MIC is treated as the midpoint between the highest concentration allowing growth and the lowest concentration inhibiting it.
-* *Example:* If growth occurs at  but not at , the MIC is estimated as .
-
 
 
 ---
