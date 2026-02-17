@@ -1,9 +1,3 @@
-A great GitHub repository needs a README that is both professional and easy to navigate. Since your project involves Bayesian inference and biological data (MICs), it’s helpful to bridge the gap between the math and the code.
-
-Here is a draft for your `README.md` that incorporates your methodology, clear setup instructions, and a clean structure.
-
----
-
 # Bayesian Estimation of Antibiotic Induction
 
 This repository contains the code and data necessary to perform Bayesian inference on laboratory data, specifically focusing on the estimation of parameters related to antibiotic growth inhibition and MIC (Minimum Inhibitory Concentration) modeling.
@@ -25,7 +19,7 @@ We use **Bayesian inference** to estimate the posterior distribution of paramete
 
 ## 🚀 Getting Started
 
-The analysis is provided in a Python Notebook (`.ipynb`). To ensure the Bayesian samplers run correctly, you should set up a dedicated environment.
+The analysis is provided in a Python Notebook (`.ipynb`). To ensure the Bayesian samplers run correctly, we recommend using the provided Conda environment file.
 
 ### Prerequisites
 
@@ -41,23 +35,16 @@ cd inducers
 ```
 
 
-2. **Create the PyMC environment:**
+2. **Create the environment from the file:**
 ```bash
-conda create -c conda-forge -n pymc_env "pymc>=5"
+conda env create -f environment.yml
 
 ```
 
 
-3. **Install Jupyter:**
+3. **Activate the environment and run the notebook:**
 ```bash
 conda activate pymc_env
-conda install jupyter
-
-```
-
-
-4. **Run the notebook:**
-```bash
 jupyter notebook
 
 ```
