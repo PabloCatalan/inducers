@@ -1,6 +1,6 @@
-# Bayesian Estimation of Antibiotic Induction
+# Bayesian Estimation of Efflux Pump Inducers Data on Antimicrobial Resistance
 
-This repository contains the code and data necessary to perform Bayesian inference on laboratory data, specifically focusing on the estimation of parameters related to antibiotic growth inhibition and MIC (Minimum Inhibitory Concentration) modeling.
+This repository contains the code and data necessary to perform Bayesian inference on the manuscript Catalán et al. 2026 ..., specifically focusing on the estimation of parameters related to antibiotic growth inhibition and MIC (Minimum Inhibitory Concentration) modeling.
 
 ## 🔬 Methodology
 
